@@ -1,119 +1,208 @@
 {
-    "name":"Paramveer Kaur" ,
+    "name": "Paramveer Kaur",
     "title": "Android Application Developer",
     "profileImage": "images/profilepic.jpg",
-    "email": "paramveerjmhal@outlook.com",
-    "phone": "+5197214079",
+    "contact": {
+        "email": "paramveerjmhal@outlook.com",
+        "phone": "+5197214079",
+        "linkedin": "https://www.linkedin.com/in/paramveer-kaur-1a0b3b1b6/"
+    },
     "location": {
-        "city": "Mississauga",
-        "province": "Ontario",
-        "country": "Canada"
+        "current": {
+            "city": "Mississauga",
+            "province": "Ontario",
+            "country": "Canada"
+        },
+        "previous": {
+            "city": "Jalandhar",
+            "province": "Punjab",
+            "country": "India"
+        }
     },
-    "socialLinks": {
-        "linkedin": "https://www.linkedin.com/in/paramveer-kaur-1a0b3b1b6/",
-        "github": "https://github.com/paramveerjmhal"
-},
-"summary": "I am a dedicated Android Application Developer with a strong foundation in mobile application development. I have a proven track record of delivering high-quality applications that are both functional and visually appealing. My goal is to leverage my skills to create applications that solve real-world problems and provide exceptional user experiences.",
-"skills": [
-{
-    "title": "Front End Web Development",
-    "skills":["HTML", "CSS", "JavaScript", "jQuery",
-                 "WordPress", "JSON", "XML"]
-},
-{
-    "title": "Back End Web Development",
-    "skills": ["PHP", "Node.js", "Express.js", "MySQL", "MongoDB"]
-},
-{
-    "title": "Mobile Application Development",
-    "skills": ["Android Studio", "Java", "Kotlin", "Flutter"]
-},
-{
-    "title": "Version Control and Collaboration",
-    "skills": ["Git", "GitHub"]
-},
-{
-    "title": "Design and Prototyping",
-    "skills": ["UX Design and prototyping (Figma)", "Adobe XD"]
-},
-{
-    "title": "Other skills",
-    "skills": ["Test-Driven Development", "Project Management"]
-}
-],
-"experience":[
-    {
-        "company":"Lululemon Athetica",
-        "role":"Production Control Coordinator | October 2022- Present",
-        "TechStack":["IBM", "WMS", "Salesforce", "Microsoft Excel", "Google Sheets", "Teams"],
-        "responsibilities":[
-            "Responsible for monitoring and coordinating the production workflow in the warehouse,",
-            "ensuring efficient operations and timely delivery of products."
-        ]
-    },
-
-    {
-        "company":"CAT Technologies",
-        "role":"Customer Service Representative | October 2022 - October 2023",
-        "TechStack":["Microsoft Excel", "Google Sheets", "Teams", "Salesforce", "Zendesk"],
-        "responsibilities":[
-            "Provided exceptional customer service by addressing inquiries,",
-            "resolving issues, and ensuring customer satisfaction in a fast-paced environment.",
-            "Responsible for providing support for solving technical issues.",
-            "Resolving network issues.",
-            "Communicate with users experiencing difficulties to determine and document problems experienced."
-        ]
-    },
-     {
-        "company":"Concentrix ",
-        "role":"Technical Support Advisor | 2020-2021",
-        "TechStack":[""],
-        "responsibilities":["Responsible for providing support in the sales department.",
-                            "Reviewed support cases for technical and troubleshooting accuracy and identified needed",
-                            "process improvements.",
-                            "Assisted customers with various types of technical issues via email, live chat and telephone."
-        ]
-    },
-     {
-        "company":"Parangat Technologies Pvt. Ltd.",
-        "role":"Android Application Developer | 2015 - 2016",
-        "TechStack":["Android SDK, Java, Kotlin, GitHub, Firebase, Android Studio"],
-        "responsibilities":[
-            "Designed and developed Android applications using Java and Kotlin.",
-            "Implemented user interfaces and ensured optimal performance across various Android devices.",
-            "Developed and maintained Android applications using Java and Kotlin.",
-            "Collaborated with cross-functional teams to define, design, and ship new features.",
-            "Participated in code reviews and contributed to team knowledge sharing."
-        ]
-    },
-
-     {
-        "company":"Acorda Infotech Pvt. Ltd.",
-        "role":"Android Application Developer | 2014 - 2015",
-        "TechStack":["Eclipse,Android SDK, Java, Kotlin, GitHub, Firebase, Android Studio"],
-        "responsibilities":["Optimized UI and code for efficiency, reusability, and performance.",
-            "Studied new opportunities for mobile applications.",
-            "Collaborated with a team of 5 to develop and provide technical support for an Android application,",
-            "working primarily in Research and Development as a beginner."
-        ]
-    }
-],
-"education":[
-    {
-        "degree":"Mobile Solutions Development",
-        "institution":"Conestoga College - Kitchener, Canada",
-        "year":"May 2017- August 2018"
-    },
-    {
-        "degree":"Bachelor's in Engineering - Computer Science",
-        "institution":"CT Group of Engineering, Management and Technology - Punjab, India",
-        "year":"2010-2014"
-    }
-],
-"projects":{
-        "name":"Web Portfolio ",
-        "description":"A personal portfolio website showcasing my skills, projects, and experience.",
-        "techStack":["HTML", "CSS", "JavaScript"]
-}
-
+    "github": "https://github.com/paramveerjmhal",
+    "summary": "I am a dedicated Android Application Developer with a strong foundation in mobile application development. I have a proven track record of delivering high-quality applications that are both functional and visually appealing. My goal is to leverage my skills to create applications that solve real-world problems and provide exceptional user experiences.",
+    "technicalSkills": [
+        {
+            "title": "Front End Web Development",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "WordPress",
+                "JSON",
+                "XML"
+            ]
+        },
+        {
+            "title": "Back End Web Development",
+            "skills": [
+                "PHP",
+                "Node.js",
+                "Express.js",
+                "MySQL",
+                "MongoDB"
+            ]
+        },
+        {
+            "title": "Mobile Application Development",
+            "skills": [
+                "Android Studio",
+                "Java",
+                "Kotlin",
+                "Flutter"
+            ]
+        },
+        {
+            "title": "Version Control and Collaboration",
+            "skills": [
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "Design and Prototyping",
+            "skills": [
+                "UX Design and prototyping (Figma)",
+                "Adobe XD"
+            ]
+        },
+        {
+            "title": "Other skills",
+            "skills": [
+                "Test-Driven Development",
+                "Project Management"
+            ]
+        }
+    ],
+    "professionalExperience": [
+        {
+            "companyName": "Lululemon Athetica",
+            "city": "Mississauga",
+            "country": "Canada",
+            "designation": "Production Control Coordinator",
+            "startDate": "October 2022",
+            "endDate": "Present",
+            "projects": [],
+            "TechStack": [
+                "IBM",
+                "WMS",
+                "Salesforce",
+                "Microsoft Excel",
+                "Google Sheets",
+                "Teams"
+            ],
+            "responsibilities": [
+                "Responsible for monitoring and coordinating the production workflow in the warehouse,",
+                "ensuring efficient operations and timely delivery of products."
+            ]
+        },
+        {
+            "companyName": "CAT Technologies",
+            "city": "Brampton",
+            "country": "Canada",
+            "designation": "Customer Service Representative",
+            "startDate": "October 2022",
+            "endDate": "Feb 2023",
+            "projects": [],
+            "TechStack": [
+                "Microsoft Excel",
+                "Google Sheets",
+                "Teams",
+                "Salesforce",
+                "Zendesk"
+            ],
+            "responsibilities": [
+                "Provided exceptional customer service by addressing inquiries,",
+                "resolving issues, and ensuring customer satisfaction in a fast-paced environment.",
+                "Responsible for providing support for solving technical issues.",
+                "Resolving network issues.",
+                "Communicate with users experiencing difficulties to determine and document problems experienced."
+            ]
+        },
+        {
+            "companyName": "Concentrix ",
+            "city": "Sudbury |Remote",
+            "country": "Canada",
+            "designation": "Customer Service Representative",
+            "startDate": "2020",
+            "endDate": "2021",
+            "projects": [],
+            "TechStack": [
+                ""
+            ],
+            "responsibilities": [
+                "Responsible for providing support in the sales department.",
+                "Reviewed support cases for technical and troubleshooting accuracy and identified needed",
+                "process improvements.",
+                "Assisted customers with various types of technical issues via email, live chat and telephone."
+            ]
+        },
+        {
+            "companyName": "Parangat Technologies Pvt. Ltd.",
+            "city": "Noida",
+            "country": "India",
+            "designation": "Android Application Developer",
+            "startDate": "2015",
+            "endDate": "2016",
+            "projects": [],
+            "TechStack": [
+                "Android SDK, Java, Kotlin, GitHub, Firebase, Android Studio"
+            ],
+            "responsibilities": [
+                "Designed and developed Android applications using Java and Kotlin.",
+                "Implemented user interfaces and ensured optimal performance across various Android devices.",
+                "Developed and maintained Android applications using Java and Kotlin.",
+                "Collaborated with cross-functional teams to define, design, and ship new features.",
+                "Participated in code reviews and contributed to team knowledge sharing."
+            ]
+        },
+        {
+            "companyName": "Acorda Infotech Pvt. Ltd.",
+            "city": "Noida",
+            "country": "India",
+            "designation": "Android Application Developer",
+            "startDate": "2014",
+            "endDate": "2015",
+            "TechStack": [
+                "Eclipse,Android SDK, Java, Kotlin, GitHub, Firebase, Android Studio"
+            ],
+            "responsibilities": [
+                "Optimized UI and code for efficiency, reusability, and performance.",
+                "Studied new opportunities for mobile applications.",
+                "Collaborated with a team of 5 to develop and provide technical support for an Android application,",
+                "working primarily in Research and Development as a beginner."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Mobile Solutions Development",
+            "institutionName": "Conestoga College",
+            "province": "Kitchener",
+            "country": "Canada",
+            "startDate": "May 2017",
+            "endDate": "August 2018"
+        },
+        {
+            "degree": "Bachelor's in Engineering - Computer Science",
+            "institutionName": "CT Group of Engineering, Management and Technology",
+            "province": "Punjab",
+            "country": "India",
+            "startDate": "2010",
+            "endDate": "2014"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Web Portfolio ",
+            "description": "A personal portfolio website showcasing my skills, projects, and experience.",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "link": ""
+        }
+    ]
 }
